@@ -1,5 +1,6 @@
 module Dolittle
-  def self.sample(*args)
+  def self.sample(args)
+    puts args[0]
     puts "Dolittle has option(s), for example #{args.join(",")}."
     puts "Dolittle has env(s), for example EVN[\"RUBYLIB\"]:#{ENV["RUBYLIB"]})."
   end
