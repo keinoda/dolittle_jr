@@ -1,15 +1,15 @@
 module Dolittle
-  def self.load(*args)
+  def self.load(args)
 
     # args
     # database name, table name, infile_name
-    dbname = args[0][0]
-    tbl    = args[0][1]
-    infile = args[0][2]
+    dbname = args[0]
+    tbl    = args[1]
+    infile = args[2]
 
     # parameter
     username  = 'root'
-    password  = 'rakuten'
+    password  = 'root'
     separator = ','
 
     # SQL

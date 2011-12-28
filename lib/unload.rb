@@ -1,15 +1,15 @@
 module Dolittle
-  def self.unload(*args)
+  def self.unload(args)
 
     # args
     # database name, table name, outfile_name
-    dbname  = args[0][0]
-    tbl     = args[0][1]
-    outfile = args[0][2]
+    dbname  = args[0]
+    tbl     = args[1]
+    outfile = args[2]
 
     # parameter
     username  = 'root'
-    password  = 'rakuten'
+    password  = 'root'
     separator = ','
 
     # SQL
