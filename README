@@ -1,5 +1,5 @@
 prompt> cd dolittle_jr
 prompt> export RUBYLIB=`pwd`/lib
 
-promt> bin/dbm usage
-promt> bin/dbm sample hoge1 hoge2
+prompt> bin/dbm usage
+prompt> bin/dbm sample hoge1 hoge2
